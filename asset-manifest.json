@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/static/js/main.70cacb99.chunk.js",
-    "main.js.map": "/static/js/main.70cacb99.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.aebff619.js",
-    "runtime-main.js.map": "/static/js/runtime-main.aebff619.js.map",
-    "static/js/2.514c0ce1.chunk.js": "/static/js/2.514c0ce1.chunk.js",
-    "static/js/2.514c0ce1.chunk.js.map": "/static/js/2.514c0ce1.chunk.js.map",
-    "static/js/3.0e644c0f.chunk.js": "/static/js/3.0e644c0f.chunk.js",
-    "static/js/3.0e644c0f.chunk.js.map": "/static/js/3.0e644c0f.chunk.js.map",
+    "main.css": "/static/css/main.6658b979.chunk.css",
+    "main.js": "/static/js/main.0026cd1b.chunk.js",
+    "main.js.map": "/static/js/main.0026cd1b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.85147056.js",
+    "runtime-main.js.map": "/static/js/runtime-main.85147056.js.map",
+    "static/css/2.4d98ed14.chunk.css": "/static/css/2.4d98ed14.chunk.css",
+    "static/js/2.5d729b20.chunk.js": "/static/js/2.5d729b20.chunk.js",
+    "static/js/2.5d729b20.chunk.js.map": "/static/js/2.5d729b20.chunk.js.map",
+    "static/js/3.6289877e.chunk.js": "/static/js/3.6289877e.chunk.js",
+    "static/js/3.6289877e.chunk.js.map": "/static/js/3.6289877e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.514c0ce1.chunk.js.LICENSE.txt": "/static/js/2.514c0ce1.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/2.4d98ed14.chunk.css.map": "/static/css/2.4d98ed14.chunk.css.map",
+    "static/css/main.6658b979.chunk.css.map": "/static/css/main.6658b979.chunk.css.map",
+    "static/js/2.5d729b20.chunk.js.LICENSE.txt": "/static/js/2.5d729b20.chunk.js.LICENSE.txt",
+    "static/media/breadhound-right.2c434e1a.svg": "/static/media/breadhound-right.2c434e1a.svg",
+    "static/media/exhaust.74583904.svg": "/static/media/exhaust.74583904.svg",
+    "static/media/lumaki-light.a912c4f0.svg": "/static/media/lumaki-light.a912c4f0.svg",
+    "static/media/rocket.6195ff2f.svg": "/static/media/rocket.6195ff2f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aebff619.js",
-    "static/js/2.514c0ce1.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.70cacb99.chunk.js"
+    "static/js/runtime-main.85147056.js",
+    "static/css/2.4d98ed14.chunk.css",
+    "static/js/2.5d729b20.chunk.js",
+    "static/css/main.6658b979.chunk.css",
+    "static/js/main.0026cd1b.chunk.js"
   ]
 }
