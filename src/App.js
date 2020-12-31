@@ -1,22 +1,20 @@
 import './styles/App.css';
-import { Link, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Link, Route, Switch } from "react-router-dom";
 import  Home  from './components/home.js';
 import  Breadhound from './components/breadhound.js';
 
 function App() {
   return (
-    <div className="App">
-      <Route exact path={ process.env.PUBLIC_URL + "/"}><Home /></Route>
-      <Route path={ process.env.PUBLIC_URL + "/about"}><About /></Route>     
-      <Route path={ process.env.PUBLIC_URL + "/breadhound"}><Breadhound /></Route>  
-    </div>
+      <div >
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Home} />  
+            <Route exact path="/breadhound" component={Breadhound} />
+          </Switch>
+        </Router>
+      </div>
   );
-}
 
-const About = () => (
-  <div>
-    <h2>About</h2>
-  </div>
-);
+}
 
 export default App;

@@ -41,7 +41,7 @@ class Home extends Component {
                         <p className="Sub-text">2021 brings the release of our newest creation. Take control of your
                             spending habits by tracking where your money goes. breadhound helps you
                             categorize your transactions and displays how much money has been spent
-                            and saved so you can improve month over month. 
+                            and saved so you can improve month over month.
                         </p>
                         <div className="Button-group">
                             {/* <Button 
@@ -52,7 +52,7 @@ class Home extends Component {
                             <Button 
                             type="primary" 
                             size="large" 
-                            href="/breadhound"
+                            href="/#/breadhound"
                             style={{ background: "#42d77d", border: "none", marginLeft: "10px" }}>
                                 Check out breadhound
                                 <img 
