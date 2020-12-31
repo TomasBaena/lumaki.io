@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lumaki.io/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/lumaki.io/static/js/main.70cacb99.chunk.js",
+    "main.js.map": "/lumaki.io/static/js/main.70cacb99.chunk.js.map",
+    "runtime-main.js": "/lumaki.io/static/js/runtime-main.91bfd7cc.js",
+    "runtime-main.js.map": "/lumaki.io/static/js/runtime-main.91bfd7cc.js.map",
+    "static/js/2.514c0ce1.chunk.js": "/lumaki.io/static/js/2.514c0ce1.chunk.js",
+    "static/js/2.514c0ce1.chunk.js.map": "/lumaki.io/static/js/2.514c0ce1.chunk.js.map",
+    "static/js/3.0e644c0f.chunk.js": "/lumaki.io/static/js/3.0e644c0f.chunk.js",
+    "static/js/3.0e644c0f.chunk.js.map": "/lumaki.io/static/js/3.0e644c0f.chunk.js.map",
+    "index.html": "/lumaki.io/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/lumaki.io/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.514c0ce1.chunk.js.LICENSE.txt": "/lumaki.io/static/js/2.514c0ce1.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/lumaki.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91bfd7cc.js",
+    "static/js/2.514c0ce1.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.70cacb99.chunk.js"
+  ]
+}
