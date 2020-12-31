@@ -6,6 +6,7 @@
     min-height: 100vh;
     color: aliceblue;
     z-index: 100;
+    overflow: scroll;
   }
   .Left-container {
     display: flex;
