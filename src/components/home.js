@@ -14,7 +14,7 @@ class Home extends Component {
     } 
     render () {
         return (
-            <div>
+            <div style={{ background: "#080738", overflow: "scroll"}}>
                 <div className="Star-container">
                     <div className="star star-1"></div>
                     <div className="star star-2"></div>
@@ -52,7 +52,7 @@ class Home extends Component {
                             <Button 
                             type="primary" 
                             size="large" 
-                            href="/#/breadhound"
+                            href="#/breadhound"
                             style={{ background: "#42d77d", border: "none", marginLeft: "10px" }}>
                                 Check out breadhound
                                 <img 

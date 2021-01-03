@@ -1,12 +1,9 @@
-import logoLight from '../assets/logo/lumaki-light.svg';
-import rocket from '../assets/rocket.svg';
-import exhaust from '../assets/exhaust.svg';
-import breadhoundLogo from '../assets/breadhound/breadhound-right.svg';
-import { Button } from 'antd';
+import { Menu } from 'antd';
 import '../styles/breadhound.css';
-import  splash  from "../assets/breadhound/breadhound-splash.svg";
+import  icon  from "../assets/breadhound/icon.png";
+import  logo from "../assets/breadhound/breadhound-logo.svg";
+import  screens from "../assets/breadhound/screenshots.png";
 import { Component } from 'react';
-
 
 class Breadhound extends Component {
     constructor(props){ 
@@ -15,8 +12,36 @@ class Breadhound extends Component {
     } 
     render () {
         return (
-            <div style={{ background: "red" }}>
-                <img src={splash} className="Splash" alt="splash" />
+            <div className="main-container">
+                <Menu 
+                    onClick={this.handleClick} 
+                    mode="horizontal"
+                    className="menu-bar"
+                    style={{ background: "#f4f5f8"}}>
+                    <Menu.Item key="home">
+                        <a href="/" rel="noopener noreferrer">
+                            Home
+                        </a>
+                    </Menu.Item>
+                    <Menu.Item key="tos">
+                        <a href="#/breadhound/policies" rel="noopener noreferrer">
+                            Policies
+                        </a>
+                    </Menu.Item>
+                </Menu>
+                <div className="app-info-top">
+                    <img src={icon} className="icon" alt="icon" /> 
+                    <img src={logo} className="logo" alt="logo" /> 
+                </div>
+                <div className="app-info-text">
+                    <p>breadhound helps you track your money. Simply log your transaction and assign them a type: 
+                        <b>Income</b>, <b>Fixed</b>, or <b>variable</b> and add a category. You'll be able to compare
+                        and import from previous months too. With a better idea of where your money is going you can 
+                        start working to find ways to spend your money more wisely. Download today!</p> 
+                </div>
+                <div className="app-info-screenshots">
+                    <img src={screens} className="screenshots" alt="screenshots" /> 
+                </div>
             </div>
         )
     }

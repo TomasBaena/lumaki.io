@@ -22,17 +22,13 @@ body {
     width: 180px;
     padding: 10px;
 }
-.app-info-text {
+.policy-container {
     width: 80%;
-    max-width: 600px;
+    max-width: 650px;
 }
-.app-info-text p{
-    font-size: 18px;
+.policy-header {
+
 }
-.app-info-screenshots {
-    width: 70%;
-    max-width: 600px;
-}
-.screenshots {
-    width: 100%;
+.policy-body {
+
 }
