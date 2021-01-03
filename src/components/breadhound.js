@@ -35,7 +35,7 @@ class Breadhound extends Component {
                 </div>
                 <div className="app-info-text">
                     <p>breadhound helps you track your money. Simply log your transaction and assign them a type: 
-                        <b>Income</b>, <b>Fixed</b>, or <b>variable</b>. You'll be able to compare
+                         <b>Income</b>, <b>Fixed</b>, or <b>variable</b>. You'll be able to compare
                         and import from previous months too. With a better idea of where your money is going you can 
                         start working to find ways to spend your money more wisely. Download today!</p> 
                 </div>
