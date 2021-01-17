@@ -2,6 +2,8 @@ import { Menu } from 'antd';
 import '../styles/breadhound.css';
 import  icon  from "../assets/breadhound/icon.png";
 import  logo from "../assets/breadhound/breadhound-logo.svg";
+import  appstoreBadge  from "../assets/breadhound/appstore-badge.png";
+import  playstoreBadge from "../assets/breadhound/google-play-badge.svg";
 import  screens from "../assets/breadhound/screenshots.png";
 import { Component } from 'react';
 
@@ -38,6 +40,18 @@ class Breadhound extends Component {
                          <b>Income</b>, <b>Fixed</b>, or <b>variable</b>. You'll be able to compare
                         and import from previous months too. With a better idea of where your money is going you can 
                         start working to find ways to spend your money more wisely. Download today!</p> 
+                </div>
+                <div className="app-info-download">
+                    <a 
+                        href="https://apps.apple.com/us/app/breadhound/id1547190917"
+                        target="_blank">
+                        <img src={appstoreBadge} className="badge" alt="Appstore badge" /> 
+                    </a>
+                    <a 
+                        href="https://play.google.com/store/apps/details?id=io.lumaki.breadhound"
+                        target="_blank">
+                        <img src={playstoreBadge} className="badge" alt="Google Play store badge" /> 
+                    </a>
                 </div>
                 <div className="app-info-screenshots">
                     <img src={screens} className="screenshots" alt="screenshots" /> 

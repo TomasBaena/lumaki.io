@@ -33,6 +33,15 @@ body {
     width: 70%;
     max-width: 600px;
 }
+.app-info-download {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.badge {
+    height: 40px;
+    margin: 10px;
+}
 .screenshots {
     width: 100%;
 }
