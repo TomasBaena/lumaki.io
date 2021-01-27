@@ -14,7 +14,7 @@ class Home extends Component {
     } 
     render () {
         return (
-            <div style={{ background: "#080738", overflow: "scroll"}}>
+            <div style={{ background: "#080738"}}>
                 <div className="Star-container">
                     <div className="star star-1"></div>
                     <div className="star star-2"></div>
@@ -37,24 +37,19 @@ class Home extends Component {
                     <div className="Left-container">
                         <div className="Inner-container">
                         <img src={logoLight} className="Lumaki-logo" alt="logo" />
-                        <h2 className="Header-text">Taking ideas to new places</h2>
-                        <p className="Sub-text">2021 brings the release of our newest creation. Take control of your
+                        <h2 className="Header-text">Let's bring fresh ideas to new places</h2>
+                        <p className="Sub-text">We're excited to announce the launch of breadhound. Take control of your
                             spending habits by tracking where your money goes. breadhound helps you
                             categorize your transactions and displays how much money has been spent
                             and saved so you can improve month over month.
                         </p>
                         <div className="Button-group">
-                            {/* <Button 
-                            type="link" 
-                            size="large" 
-                            href="/about"
-                            style={{ color: "aliceblue" }}>About us</Button> */}
                             <Button 
                             type="primary" 
                             size="large" 
                             href="#/breadhound"
-                            style={{ background: "#42d77d", border: "none", marginLeft: "10px" }}>
-                                Check out breadhound
+                            style={{ background: "#42d77d", border: "none" }}>
+                                Check out breadhound!
                                 <img 
                                     className="Breadhound-icon"
                                 src={breadhoundLogo} 
@@ -65,8 +60,8 @@ class Home extends Component {
                     </div>
                     <div className="Right-container">
                         <div className="Rocket-container">
-                        <img src={exhaust} className="Exhaust" alt="exhaust" />
-                        <img src={rocket} className="Rocket" alt="rocket" />      
+                            <img src={exhaust} className="Exhaust" alt="exhaust" />
+                            <img src={rocket} className="Rocket" alt="rocket" />      
                         </div>
                     </div>
                 </div>
