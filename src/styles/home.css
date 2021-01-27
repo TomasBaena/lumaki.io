@@ -1,3 +1,6 @@
+.Page-container {
+  background-image: linear-gradient(to right bottom, #051937, #051937, #051937, #051937, #051937, #051c3b, #062040, #062344, #062b4e, #053457, #033c61, #00456a);
+}
 .Body-container{
     position: relative;
     display: flex;
@@ -77,8 +80,7 @@
     animation: main-fire 0.1s ease-in infinite;
   }
   .Star-container {
-    background-color: #202432;
-    background-image: linear-gradient(to right bottom, #051937, #051937, #051937, #051937, #051937, #051c3b, #062040, #062344, #062b4e, #053457, #033c61, #00456a);
+    /* background-color: #202432; */
     width: 100%;
     height: 100%;
     position: absolute;

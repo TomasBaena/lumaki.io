@@ -14,7 +14,7 @@ class Home extends Component {
     } 
     render () {
         return (
-            <div style={{ background: "#080738"}}>
+            <div className="Page-container">
                 <div className="Star-container">
                     <div className="star star-1"></div>
                     <div className="star star-2"></div>
@@ -38,10 +38,10 @@ class Home extends Component {
                         <div className="Inner-container">
                         <img src={logoLight} className="Lumaki-logo" alt="logo" />
                         <h2 className="Header-text">Let's bring fresh ideas to new places</h2>
-                        <p className="Sub-text">We're excited to announce the launch of breadhound. Take control of your
-                            spending habits by tracking where your money goes. breadhound helps you
-                            categorize your transactions and displays how much money has been spent
-                            and saved so you can improve month over month.
+                        <p className="Sub-text">We're excited to announce the launch of breadhound! Take control of your
+                            spending habits through a simplified tracker that helps you compare month to month.
+                            Take it even further with built in goals based on the easy to follow 50/30/20 rule.
+                            With breadhound you'll understand where your money is going so you can find more ways to save.
                         </p>
                         <div className="Button-group">
                             <Button 
