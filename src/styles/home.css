@@ -1,6 +1,33 @@
 .Page-container {
-  background-image: linear-gradient(to right bottom, #051937, #051937, #051937, #051937, #051937, #051c3b, #062040, #062344, #062b4e, #053457, #033c61, #00456a);
+  background: linear-gradient(330deg, #051937, #051c3b, #062040, #062344, #062b4e, #053457, #033c61, #00456a);
+  background-size: 1000% 1000%;
+  -webkit-animation: gradient-animation 30s ease infinite;
+  -moz-animation: gradient-animation 30s ease infinite;
+  -o-animation: gradient-animation 30s ease infinite;
+  animation: gradient-animation 30s ease infinite;
 }
+
+@-webkit-keyframes gradient-animation {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
+@-moz-keyframes gradient-animation {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
+@-o-keyframes gradient-animation {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
+@keyframes gradient-animation {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
+
 .Body-container{
     position: relative;
     display: flex;
